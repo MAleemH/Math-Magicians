@@ -245,7 +245,7 @@ I would like to thank all of them who showed thier support.
 
 - **Can I use your code for my project?**
 
-  - Alright, you can get understanding from my code. I strongly recommend you to write your own code. It will give you better understanding. Thanks.
+  - Alright, you can get understanding from my code. I strongly recommend you to write your own code. It will give you better understanding. Thanks!
 
 - **Will you help me to solve my problem in my code?**
 
