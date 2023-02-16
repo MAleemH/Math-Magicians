@@ -1,39 +1,47 @@
-.App {
-  text-align: center;
+.cal-container {
+  width: 400px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+  align-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cal-header,
+.keys,
+.bottom-zero {
+  padding: 0 5px 0 0;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.cal-header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: gray;
+  display: grid;
+  justify-content: end;
   align-items: center;
+}
+
+.keys {
+  background-color: gainsboro;
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.right-col {
+  background-color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-zero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
