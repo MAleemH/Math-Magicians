@@ -1,3 +1,30 @@
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 30px 5px 30px;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.active {
+  color: #8a4baf;
+}
+
+/* calculator page */
+
 .cal-container {
   width: 400px;
   height: 300px;
