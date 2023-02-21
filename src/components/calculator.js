@@ -18,7 +18,7 @@ const Calculator = () => {
 
   return (
     <div className="calculatorPage">
-      <h2>Let's do some math!</h2>
+      <h2>Let&apos;s do some math!</h2>
       <div className="cal-container">
         <p className="result">
           {state.next || state.operation || state.total || 0}
