@@ -5,8 +5,8 @@ import Calculator from './components/calculator';
 import Quote from './components/quote';
 import Navbar from './components/navbar';
 import NotMatch from './components/notMatch';
-import operate from './logic/Operate';
-import calculate from './logic/Calculate';
+import Operate from './logic/operate';
+import Calculate from './logic/calculate';
 
 it('Home page renders correctly', () => {
   const tree = renderer
@@ -110,27 +110,27 @@ it('Is NotMatch  renders correctly', () => {
 
 describe('Tests on operate.js arithmetic operations ', () => {
   test('Test multiply 2 * 5 to get 10', () => {
-    const product = operate(2, 5, 'x');
+    const product = Operate(2, 5, 'x');
     expect(product).toBe('10');
   });
 
   test('Test subtract 90 - 40 to get 50', () => {
-    const subtraction = operate(90, 40, '-');
+    const subtraction = Operate(90, 40, '-');
     expect(subtraction).toBe('50');
   });
 
   test('Test Add 100 + 30 to get 130', () => {
-    const Addition = operate(100, 30, '+');
+    const Addition = Operate(100, 30, '+');
     expect(Addition).toBe('130');
   });
 
   test('Test divide 20 ÷ 2 to get 10', () => {
-    const division = operate(20, 2, '÷');
+    const division = Operate(20, 2, '÷');
     expect(division).toEqual('10');
   });
 
   test('Test remainder 25 % 2 to get 3', () => {
-    const modulo = operate(25, 2, '%');
+    const modulo = Operate(25, 2, '%');
     expect(modulo).toEqual('1');
   });
 });
@@ -143,7 +143,7 @@ describe('calculate', () => {
       next: '3',
       operation: '+',
     };
-    const newState = calculate(initialState, 'AC');
+    const newState = Calculate(initialState, 'AC');
     expect(newState).toEqual({
       total: null,
       next: null,
@@ -156,7 +156,7 @@ describe('calculate', () => {
       next: '3',
       operation: '+',
     };
-    const newState = calculate(initialState, '4');
+    const newState = Calculate(initialState, '4');
     expect(newState).toEqual({
       total: '5',
       next: '34',
@@ -169,7 +169,7 @@ describe('calculate', () => {
       next: '3',
       operation: '+',
     };
-    const newState = calculate(initialState, 'x');
+    const newState = Calculate(initialState, 'x');
     expect(newState).toEqual({
       total: '8',
       next: null,
@@ -182,7 +182,7 @@ describe('calculate', () => {
       next: '3',
       operation: '+',
     };
-    const newState = calculate(initialState, '.');
+    const newState = Calculate(initialState, '.');
     expect(newState).toEqual({
       total: '5',
       next: '3.',
@@ -195,7 +195,7 @@ describe('calculate', () => {
       next: '3',
       operation: '+',
     };
-    const newState = calculate(initialState, '=');
+    const newState = Calculate(initialState, '=');
     expect(newState).toEqual({
       total: '8',
       next: null,
@@ -208,7 +208,7 @@ describe('calculate', () => {
       next: '3',
       operation: '+',
     };
-    const newState = calculate(initialState, '+/-');
+    const newState = Calculate(initialState, '+/-');
     expect(newState).toEqual({
       total: '5',
       next: '-3',
