@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator page renders correctly 1`] = `
+<div
+  className="calculatorPage"
+>
+  <h2>
+    Let's do some math!
+  </h2>
+  <div
+    className="cal-container"
+  >
+    <p
+      className="result"
+    >
+      0
+    </p>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="bottom-zero"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Home page renders correctly 1`] = `
+<div
+  className="homepage"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p
+    className="homepage-paragraphs"
+  >
+    <p>
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Ipsum penatibus vivamus eleifend, vitae lectus turpis. Fermentum placerat ex proin luctus quis potenti mus. Curae lectus curae ex ligula tempor primis felis habitant taciti. Ipsum in ridiculus tempor sagittis at, in sagittis orci. Dignissim sit nec nisi lectus consequat tellus, condimentum platea. Class blandit parturient bibendum platea arcu nulla adipiscing id.
+    </p>
+    <p>
+      Viverra nec laoreet litora ullamcorper hendrerit sagittis. Purus ex elit nisi, purus praesent hendrerit erat in. Risus fames bibendum ultrices tristique nisi! Lobortis consequat nibh; cubilia facilisis rutrum iaculis. Massa at orci ligula ultrices ligula primis aenean. Cursus hendrerit litora est facilisi class habitasse maecenas fringilla eleifend. Placerat mus viverra consectetur vestibulum magna vestibulum class quisque.
+    </p>
+  </p>
+</div>
+`;
