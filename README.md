@@ -132,7 +132,6 @@ Example command:
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
 ```sh
@@ -144,7 +143,6 @@ Example commands:
 
 Install this project with:
 
-
 Example command:
 
 ```sh
@@ -155,7 +153,6 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-
 
 Example command:
 
@@ -198,6 +195,18 @@ Example:
 - GitHub: [@MAleemH](https://github.com/MAleemH)
 - Twitter: [@MAleemHashmi1](https://twitter.com/MAleemHashmi1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aleem-hashmi-09658a171/)
+
+👤 **Towett Sammy**
+
+- GitHub: [@sam](https://github.com/Sammy3000)
+- Twitter: [@towettsam](https://twitter.com/sammy15375658)
+- LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
+
+👤 **zewdu erkyhun**
+
+- GitHub: [@zewdu444](https://github.com/zewdu444)
+- Twitter: [@zewdu444](https://twitter.com/zewdu444)
+- LinkedIn: [zewdu-erkyhun](https://www.linkedin.com/in/zewdu-erkyhun-081378b3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
