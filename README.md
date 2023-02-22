@@ -160,17 +160,15 @@ Example command:
   npm start
 ```
 
-<!-- ### Run tests
+### Run tests
 
 To run tests, run the following command: -->
 
-<!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
 
 <!-- ### Deployment
 
@@ -202,7 +200,7 @@ Example:
 - Twitter: [@towettsam](https://twitter.com/sammy15375658)
 - LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
 
-👤 **zewdu erkyhun**
+👤 **Zewdu Erkyhun**
 
 - GitHub: [@zewdu444](https://github.com/zewdu444)
 - Twitter: [@zewdu444](https://twitter.com/zewdu444)
@@ -214,7 +212,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Tests**
+- [ ] **Footer**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
