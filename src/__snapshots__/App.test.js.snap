@@ -163,11 +163,38 @@ exports[`Home page renders correctly 1`] = `
     className="homepage-paragraphs"
   >
     <p>
-      Lorem ipsum odor amet, consectetuer adipiscing elit. Ipsum penatibus vivamus eleifend, vitae lectus turpis. Fermentum placerat ex proin luctus quis potenti mus. Curae lectus curae ex ligula tempor primis felis habitant taciti. Ipsum in ridiculus tempor sagittis at, in sagittis orci. Dignissim sit nec nisi lectus consequat tellus, condimentum platea. Class blandit parturient bibendum platea arcu nulla adipiscing id.
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Posuere duis nisi leo convallis fringilla eros. Taciti bibendum curabitur hac at eget nullam pharetra leo id. Faucibus justo mollis fusce; feugiat natoque est vel. Elit arcu semper class platea a ipsum rhoncus neque. Condimentum viverra at aptent faucibus justo risus euismod. Nullam dictumst mi nulla mauris integer phasellus erat. Eu purus velit aptent nascetur imperdiet ex quisque. Massa dictum augue taciti egestas nisl etiam aenean nam.
     </p>
     <p>
-      Viverra nec laoreet litora ullamcorper hendrerit sagittis. Purus ex elit nisi, purus praesent hendrerit erat in. Risus fames bibendum ultrices tristique nisi! Lobortis consequat nibh; cubilia facilisis rutrum iaculis. Massa at orci ligula ultrices ligula primis aenean. Cursus hendrerit litora est facilisi class habitasse maecenas fringilla eleifend. Placerat mus viverra consectetur vestibulum magna vestibulum class quisque.
+      Ultricies eget consequat semper phasellus adipiscing aenean, magnis iaculis. Taciti aptent mauris hac tellus morbi enim. Fringilla nascetur sem velit augue sem. Sapien fames vehicula vitae malesuada primis odio. Ut massa vivamus sodales quisque aliquet placerat aenean congue. Vulputate ut auctor sagittis; viverra varius tortor. At convallis tristique nullam eleifend ligula tempus.
     </p>
   </p>
+</div>
+`;
+
+exports[`Is NotMatch  renders correctly 1`] = `
+<div>
+  <p>
+    Not Found!
+  </p>
+</div>
+`;
+
+exports[`Is Quotes renders correctly 1`] = `
+<div
+  className="quote-page"
+>
+  <blockquote>
+    <q
+      className="quote-description"
+    >
+      Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.
+    </q>
+    <p
+      className="quote-author"
+    >
+      —William Paul Thurston
+    </p>
+  </blockquote>
 </div>
 `;
