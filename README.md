@@ -162,7 +162,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command: -->
+To run tests, run the following command:
 
 Example command:
 
