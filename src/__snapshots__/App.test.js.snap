@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator page renders correctly 1`] = `
+<div
+  className="calculatorPage"
+>
+  <h2>
+    Let's do some math!
+  </h2>
+  <div
+    className="cal-container"
+  >
+    <p
+      className="result"
+    >
+      0
+    </p>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="bottom-zero"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="keys"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="keys right-col"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Home page renders correctly 1`] = `
+<div
+  className="homepage"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <div
+    className="homepage-paragraphs"
+  >
+    <p>
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus nisl porttitor habitasse lacinia vitae montes id. Porttitor senectus hendrerit molestie interdum sollicitudin vel. Donec aenean commodo blandit sapien facilisis potenti magna molestie. Libero orci magnis turpis facilisi turpis habitant mus amet. Sagittis quis pellentesque malesuada nullam fringilla. Nulla tellus parturient dictum posuere torquent nisi suscipit sit. Lacus curae eleifend mi potenti interdum blandit dictum augue litora.
+    </p>
+    <p>
+      Varius cras mus ut id taciti feugiat potenti nulla. Fusce conubia convallis condimentum odio, taciti mollis. Ipsum interdum sollicitudin cubilia libero vivamus. Hendrerit vehicula commodo felis praesent netus laoreet. At interdum pharetra quisque nec feugiat id faucibus. Ad porta mollis in dis; praesent felis. Urna ultrices volutpat egestas scelerisque venenatis. Ultrices dui condimentum sodales consectetur nulla urna risus vivamus. Molestie at ex, egestas libero nostra et.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Is NotMatch  renders correctly 1`] = `
+<div>
+  <p>
+    Not Found!
+  </p>
+</div>
+`;
+
+exports[`Is Quotes renders correctly 1`] = `
+<div
+  className="quote-page"
+>
+  <blockquote>
+    <q
+      className="quote-description"
+    >
+      Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.
+    </q>
+    <p
+      className="quote-author"
+    >
+      —William Paul Thurston
+    </p>
+  </blockquote>
+</div>
+`;

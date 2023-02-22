@@ -132,7 +132,6 @@ Example command:
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
 ```sh
@@ -143,7 +142,6 @@ Example commands:
 ### Install
 
 Install this project with:
-
 
 Example command:
 
@@ -156,24 +154,21 @@ Example command:
 
 To run the project, execute the following command:
 
-
 Example command:
 
 ```sh
   npm start
 ```
 
-<!-- ### Run tests
+### Run tests
 
-To run tests, run the following command: -->
+To run tests, run the following command:
 
-<!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
 
 <!-- ### Deployment
 
@@ -199,13 +194,25 @@ Example:
 - Twitter: [@MAleemHashmi1](https://twitter.com/MAleemHashmi1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-aleem-hashmi-09658a171/)
 
+👤 **Towett Sammy**
+
+- GitHub: [@sam](https://github.com/Sammy3000)
+- Twitter: [@towettsam](https://twitter.com/sammy15375658)
+- LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
+
+👤 **Zewdu Erkyhun**
+
+- GitHub: [@zewdu444](https://github.com/zewdu444)
+- Twitter: [@zewdu444](https://twitter.com/zewdu444)
+- LinkedIn: [zewdu-erkyhun](https://www.linkedin.com/in/zewdu-erkyhun-081378b3/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Tests**
+- [ ] **Footer**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
