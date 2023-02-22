@@ -5,8 +5,8 @@ import Calculator from './components/calculator';
 import Quote from './components/quote';
 import Navbar from './components/navbar';
 import NotMatch from './components/notMatch';
-import operate from './logic/Operate';
-import calculate from './logic/Calculate';
+import operate from './logic/Operate.js';
+import calculate from './logic/Calculate.js';
 
 it('Home page renders correctly', () => {
   const tree = renderer
