@@ -1,35 +1,35 @@
-import { BrowserRouter } from "react-router-dom";
-import renderer from "react-test-renderer";
-import Home from "./components/home";
-import Calculator from "./components/calculator";
-import Quote from "./components/quote";
-import Navbar from "./components/navbar";
-import NotMatch from "./components/notMatch";
-import operate from "./logic/Operate";
-import calculate from "./logic/Calculate";
+import { BrowserRouter } from 'react-router-dom';
+import renderer from 'react-test-renderer';
+import Home from './components/home';
+import Calculator from './components/calculator';
+import Quote from './components/quote';
+import Navbar from './components/navbar';
+import NotMatch from './components/notMatch';
+import operate from './logic/Operate';
+import calculate from './logic/Calculate';
 
-it("Home page renders correctly", () => {
+it('Home page renders correctly', () => {
   const tree = renderer
     .create(
       <BrowserRouter>
         <Home />
-      </BrowserRouter>
+      </BrowserRouter>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-it("Calculator page renders correctly", () => {
+it('Calculator page renders correctly', () => {
   const tree = renderer
     .create(
       <BrowserRouter>
         <Calculator />
-      </BrowserRouter>
+      </BrowserRouter>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
-it("Is Quotes renders correctly", () => {
+it('Is Quotes renders correctly', () => {
   const tree = renderer
     .create(
       <Quote>
@@ -39,18 +39,18 @@ it("Is Quotes renders correctly", () => {
           </q>
           <p className="quote-author">&mdash;Anonymous</p>
         </blockquote>
-      </Quote>
+      </Quote>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-it("Is NavBar renders correctly", () => {
+it('Is NavBar renders correctly', () => {
   const tree = renderer
     .create(
       <BrowserRouter>
         <Navbar />
-      </BrowserRouter>
+      </BrowserRouter>,
     )
     .toJSON();
   expect(tree).toMatchInlineSnapshot(`
@@ -97,122 +97,122 @@ it("Is NavBar renders correctly", () => {
 </nav>
 `);
 });
-it("Is NotMatch  renders correctly", () => {
+it('Is NotMatch  renders correctly', () => {
   const tree = renderer
     .create(
       <NotMatch>
         <p>Test no to match render perfectly </p>
-      </NotMatch>
+      </NotMatch>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-describe("Tests on operate.js arithmetic operations ", () => {
-  test("Test multiply 2 * 5 to get 10", () => {
-    const product = operate(2, 5, "x");
-    expect(product).toBe("10");
+describe('Tests on operate.js arithmetic operations ', () => {
+  test('Test multiply 2 * 5 to get 10', () => {
+    const product = operate(2, 5, 'x');
+    expect(product).toBe('10');
   });
 
-  test("Test subtract 90 - 40 to get 50", () => {
-    const subtraction = operate(90, 40, "-");
-    expect(subtraction).toBe("50");
+  test('Test subtract 90 - 40 to get 50', () => {
+    const subtraction = operate(90, 40, '-');
+    expect(subtraction).toBe('50');
   });
 
-  test("Test Add 100 + 30 to get 130", () => {
-    const Addition = operate(100, 30, "+");
-    expect(Addition).toBe("130");
+  test('Test Add 100 + 30 to get 130', () => {
+    const Addition = operate(100, 30, '+');
+    expect(Addition).toBe('130');
   });
 
-  test("Test divide 20 ÷ 2 to get 10", () => {
-    const division = operate(20, 2, "÷");
-    expect(division).toEqual("10");
+  test('Test divide 20 ÷ 2 to get 10', () => {
+    const division = operate(20, 2, '÷');
+    expect(division).toEqual('10');
   });
 
-  test("Test remainder 25 % 2 to get 3", () => {
-    const modulo = operate(25, 2, "%");
-    expect(modulo).toEqual("1");
+  test('Test remainder 25 % 2 to get 3', () => {
+    const modulo = operate(25, 2, '%');
+    expect(modulo).toEqual('1');
   });
 });
 
 // CALCULATE TEST
-describe("calculate", () => {
-  test("AC button resets all values", () => {
+describe('calculate', () => {
+  test('AC button resets all values', () => {
     const initialState = {
-      total: "5",
-      next: "3",
-      operation: "+",
+      total: '5',
+      next: '3',
+      operation: '+',
     };
-    const newState = calculate(initialState, "AC");
+    const newState = calculate(initialState, 'AC');
     expect(newState).toEqual({
       total: null,
       next: null,
       operation: null,
     });
   });
-  test("number button updates next value", () => {
+  test('number button updates next value', () => {
     const initialState = {
-      total: "5",
-      next: "3",
-      operation: "+",
+      total: '5',
+      next: '3',
+      operation: '+',
     };
-    const newState = calculate(initialState, "4");
+    const newState = calculate(initialState, '4');
     expect(newState).toEqual({
-      total: "5",
-      next: "34",
-      operation: "+",
+      total: '5',
+      next: '34',
+      operation: '+',
     });
   });
-  test("operation button updates operation", () => {
+  test('operation button updates operation', () => {
     const initialState = {
-      total: "5",
-      next: "3",
-      operation: "+",
+      total: '5',
+      next: '3',
+      operation: '+',
     };
-    const newState = calculate(initialState, "x");
+    const newState = calculate(initialState, 'x');
     expect(newState).toEqual({
-      total: "8",
+      total: '8',
       next: null,
-      operation: "x",
+      operation: 'x',
     });
   });
-  test("decimal point button updates next value", () => {
+  test('decimal point button updates next value', () => {
     const initialState = {
-      total: "5",
-      next: "3",
-      operation: "+",
+      total: '5',
+      next: '3',
+      operation: '+',
     };
-    const newState = calculate(initialState, ".");
+    const newState = calculate(initialState, '.');
     expect(newState).toEqual({
-      total: "5",
-      next: "3.",
-      operation: "+",
+      total: '5',
+      next: '3.',
+      operation: '+',
     });
   });
-  test("equals button updates total value", () => {
+  test('equals button updates total value', () => {
     const initialState = {
-      total: "5",
-      next: "3",
-      operation: "+",
+      total: '5',
+      next: '3',
+      operation: '+',
     };
-    const newState = calculate(initialState, "=");
+    const newState = calculate(initialState, '=');
     expect(newState).toEqual({
-      total: "8",
+      total: '8',
       next: null,
       operation: null,
     });
   });
-  test("negative button changes next value to negative", () => {
+  test('negative button changes next value to negative', () => {
     const initialState = {
-      total: "5",
-      next: "3",
-      operation: "+",
+      total: '5',
+      next: '3',
+      operation: '+',
     };
-    const newState = calculate(initialState, "+/-");
+    const newState = calculate(initialState, '+/-');
     expect(newState).toEqual({
-      total: "5",
-      next: "-3",
-      operation: "+",
+      total: '5',
+      next: '-3',
+      operation: '+',
     });
   });
 });
