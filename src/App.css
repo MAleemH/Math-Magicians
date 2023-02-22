@@ -1,6 +1,72 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px 5px 30px;
+}
+
+.navTitle {
+  font-size: 40px;
+}
+
+.navItems {
+  font-size: 22px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.active {
+  color: #8a4baf;
+}
+
+ul li:nth-child(1),
+ul li:nth-child(2) {
+  border-right: 2px solid black;
+  padding-right: 20px;
+}
+
+/* homepage */
+
+.homepage {
+  padding: 0 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0;
+}
+
+.homepage-paragraphs {
+  font-size: 18px;
+}
+
+/* calculator page */
+
+.calculatorPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
 .cal-container {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 450px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-items: center;
@@ -12,7 +78,7 @@
 .bottom-zero {
   margin: 0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   border: 1px solid gray;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -20,14 +86,14 @@
 }
 
 .result {
-  margin-right: 5px;
-  padding-right: 5px;
   grid-column-start: 1;
   grid-column-end: 5;
   background-color: gray;
   display: grid;
   justify-content: end;
   align-items: center;
+  width: 97%;
+  padding-right: 3%;
 }
 
 .keys {
@@ -52,4 +118,22 @@
 
 button:hover {
   cursor: pointer;
+}
+
+/* quote page */
+
+.quote-page {
+  padding: 100px 50px 0 50px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-description {
+  font-style: italic;
+}
+
+.quote-author {
+  color: gray;
+  text-align: right;
 }

@@ -205,9 +205,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Home Page**
-- [ ] **Calcutlator Page**
-- [ ] **Quote Page**
+- [ ] **Tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
